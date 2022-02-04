@@ -7,12 +7,10 @@ func main() {
 	// card = "ace of spades"
 	// card := newCard()
 	// fmt.Println(card)
-	cards := deck{"Ace of Diamonds", kartuBaru()}
-	cards = append(cards, "Straight")
+	// cards := deck{"Ace of Diamonds", kartuBaru()}
+	// cards = append(cards, "Straight")
+
+	cards := kartuBaru()
 
 	cards.tampilkan()
-}
-
-func kartuBaru() string {
-	return "Lima Hati"
 }
